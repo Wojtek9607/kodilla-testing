@@ -8,8 +8,8 @@ import java.math.BigDecimal;
 public class WorldTestSuite {
 
     @Test
-    void testGetPeopleQuantity()
-    {
+    void testGetPeopleQuantity() {
+
         //Given
         Country poland = new Country(new BigDecimal("40000000"));
         Country germany = new Country(new BigDecimal("80000000"));
